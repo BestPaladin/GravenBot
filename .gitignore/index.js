@@ -2,14 +2,14 @@ const Discord = require('discord.js');
 
 const client = new Discord.Client();
 
-const express = require("express"); 
+/*const express = require("express"); 
 const wakeUpDyno = require("wokeDyno.js");
 const PORT = 3000;
 const DYNO_URL = "https://gravenbot.herokuapp.com";
 const app = express();
 app.listen(PORT, () => {
     wakeUpDyno(DYNO_URL);
-})
+})*/
 
 client.login(process.env.TOKEN);
 
