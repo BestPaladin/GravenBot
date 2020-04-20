@@ -11,7 +11,7 @@ client.on("ready", () => {
 
 client.on("message", message => {
 
-  if(!(message.author.user.hasPermission('ADMINISTRATOR'))) {
+  if(false) {
     message.channel.send("Vous n'avez pas la permission d'effectuer cette action !");
   } else {
     switch(message.content) {
