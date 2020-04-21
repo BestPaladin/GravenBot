@@ -61,9 +61,10 @@ client.on("message", message => {
           .setTitle("Pour donner votre réponse :")
           .setThumbnail('https://cdn.discordapp.com/icons/701586656029048843/958545e0abfe914077754716bcd0fd90.png')
           .setDescription("Allez sur le site https://pastebin.com/")
-          .addField("Collez votre code !", "Choisissez votre language puis copiez le lien vers votre pastebin !")
-          .addField("Envoyez votre code précédé de la commande `!reponse` !", "Exemple : `!reponse https://pastebin.com/jLBC0JX3`")
-          .setFooter("Tout message autre que la commande !reponse dans ce channel sera supprimé et sauvegardé !")
+          .addField("\u200b", "Collez votre code, choisissez votre language puis copiez le lien vers votre pastebin !")
+          .addField("\u200b", "Envoyez votre code précédé de la commande `!reponse` !")
+          .addField("Exemple : `!reponse https://pastebin.com/jLBC0JX3`", "\u200b")
+          .addField("\u200b", "Tout message autre que la commande !reponse dans ce channel sera supprimé et sauvegardé !")
         message.channel.send(emb);
         console.log(message.author.username + " à éxecuté la commande !rep 1 !");
         break;
