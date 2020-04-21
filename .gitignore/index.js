@@ -36,7 +36,7 @@ client.on("message", message => {
         var emb = new Discord.RichEmbed()
           .setColor('0x000000')
           .setTitle("Commandes du Graven's Bot")
-          .setThumbnail('https://raw.githubusercontent.com/BestPaladin/GravenBot/master/cl%C3%A9.png')
+          .setThumbnail('https://raw.githubusercontent.com/BestPaladin/GravenBot/master/.gitignore/cl%C3%A9.png')
           .addField("!ping","Vérifie la connection du bot !")
           .addField("!rules", "Affiches les règles du tournoi !")
           .addField("!commandes", "Affiche ce menu !")
