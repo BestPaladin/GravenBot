@@ -48,9 +48,9 @@ client.on("message", message => {
           .addField("!round 3","Mets le jeu du bot à 'Round 3' !")
           .addField("!round 4","Mets le jeu du bot à 'Round 4' !")
           .addField("!round 5","Mets le jeu du bot à 'Round 5 - Finale' !")
-          .addField("!rep 1", "Affiche l'aide pour le salon #reponse !")
-          .addField("!rep 2", "Affiche la description du salon #reponse-candidats !")
-          .addField("!rep 3", "Affiche la description du salon #reponse-spam !")
+          .addField("!rep 1", "Affiche l'aide pour le salon <#701978293154349156> !")
+          .addField("!rep 2", "Affiche la description du salon <#701991595410587709> !")
+          .addField("!rep 3", "Affiche la description du salon <#701991763627474964> !")
         message.channel.send(emb);
         console.log(message.author.username + " à éxecuté la commande !commandes !");
         break;
