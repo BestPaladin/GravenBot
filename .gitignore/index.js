@@ -82,7 +82,7 @@ client.on("message", message => {
         message.delete();
         var emb = new Discord.RichEmbed()
           .setColor('0xffffff')
-          .setTitle("Salon où sont envoyés les messages de #reponse qui ne sont pas des réponses")
+          .setTitle("Salon où sont envoyés les messages de <#701978293154349156> qui ne sont pas des réponses")
           .setThumbnail('https://cdn.discordapp.com/icons/701586656029048843/958545e0abfe914077754716bcd0fd90.png')
           .setDescription("Seul le staff a accès à ce salon !")
         message.channel.send(emb);
@@ -172,7 +172,7 @@ client.on("guildMemberAdd", member => {
       .setColor('RANDOM')
       .setTitle("Bienvenue "+member.user.username)
       .setThumbnail(member.user.avatarURL)
-      .setDescription("Le tournoi se déroulera le 1 mai 2020 !\nInscris toi vite dans #inscription-tournoi avant le 30 avril !")
+      .setDescription("Le tournoi se déroulera le 1 mai 2020 !\nInscris toi vite dans <#701587304959049768> avant le 30 avril !")
     bvn.send(emb);
 
 });
